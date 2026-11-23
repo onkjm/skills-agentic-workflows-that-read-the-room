@@ -26,7 +26,9 @@ safe-outputs:
     allowed-files:
       - site/content/github-info.md
     max: 1
-    draft: false
+    draft: ture
+    title-prefix: "[mona] "
+    fallback-as-issue: false
 ---
 
 # Update GitHub Info
