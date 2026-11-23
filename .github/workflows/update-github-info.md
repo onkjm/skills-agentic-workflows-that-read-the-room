@@ -21,12 +21,13 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     allowed-files:
       - site/content/github-info.md
     max: 1
-    draft: ture
+    draft: false
     title-prefix: "[mona] "
     fallback-as-issue: false
 ---
@@ -34,8 +35,9 @@ safe-outputs:
 # Update GitHub Info
 
 Read `notes/mona-notes.md` and the current `site/content/github-info.md`. Use
-`web-fetch` to read both https://github.blog/latest/ and
-https://github.blog/changelog/.
+`web-fetch` to read https://github.blog/latest/,
+https://github.blog/changelog/, and
+https://awesome-copilot.github.com/workflows/.
 
 Find recent, verified developments that help developers learn GitHub faster
 and fit Mona's existing editorial angle. Update `site/content/github-info.md`
