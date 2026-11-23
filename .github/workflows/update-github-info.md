@@ -47,8 +47,4 @@ If required files or either source cannot be accessed, do not guess; report the
 task as incomplete. If there is no useful new information or no meaningful
 content change to make, call `noop` with a brief reason and do not open a PR.
 
-When the page changes, modify only `site/content/github-info.md` and use the
-configured `create-pull-request` safe output to open one non-draft pull request
-for Mona to review. Summarize the changes and include their source links in the
-PR description. Do not open a second PR while this workflow already has an open
-PR. Do not write directly to the repository's main branch.
+When the page changes, modify only `site/content/github-info.md` and use the　configured `create-pull-request` safe output to open one non-draft pull request　for Mona to review. Summarize the changes and include their source links in the　PR description. Do not open a second PR while this workflow already has an open　PR. Do not write directly to the repository's main branch.
