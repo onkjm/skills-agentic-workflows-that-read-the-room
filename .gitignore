@@ -45,3 +45,4 @@ site/.vercel/
 site/.netlify/
 site/.env
 site/.env.*
+.devcontainer/devcontainer-lock.json
