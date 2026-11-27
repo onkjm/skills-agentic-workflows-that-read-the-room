@@ -53,8 +53,8 @@
 
 name: "update-github-info"
 on:
-  schedule:
-    - cron: "36 3 * * *"  # Friendly format: daily (scattered)
+  # schedule:
+  #   - cron: "36 3 * * *"  # Friendly format: daily (scattered)
   # skip-if-match: "is:pr is:open in:body \"gh-aw-workflow-id: update-github-info\"" # Skip-if-match processed as search check in pre-activation job
   workflow_dispatch:
     inputs:
